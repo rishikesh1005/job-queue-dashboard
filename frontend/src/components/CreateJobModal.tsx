@@ -52,6 +52,8 @@ export const CreateJobModal: React.FC<{
               <option value="data-sync">data-sync</option>
               <option value="email-notification">email-notification</option>
               <option value="report-generation">report-generation</option>
+              <option value="image-processing">image-processing</option>
+              <option value="payment-processing">payment-processing</option>
             </select>
           </div>
           <div className="flex justify-end gap-2 pt-2">
